@@ -26,6 +26,7 @@
     "dist"
   ],
   "scripts": {
+    "install": "npm run build",
     "purge": "rm -rf dist/",
     "dev": "node build/dev-server.js",
     "docs": "node build/build.js",
